@@ -49,7 +49,7 @@ class TechniqueInput(BaseModel):
     ]
 
 
-# ---------- individual cleaning functions ----------
+#individual cleaning functions 
 
 def to_lowercase(text: str) -> str:
     return text.lower()

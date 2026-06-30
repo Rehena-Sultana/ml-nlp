@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"  # change after deploying to Render
+BASE_URL = " https://ml-nlp-9r7t.onrender.com"  # change after deploying to Render
 SINGLE_URL = f"{BASE_URL}/preprocess/single"
 FULL_URL = f"{BASE_URL}/preprocess"
 
